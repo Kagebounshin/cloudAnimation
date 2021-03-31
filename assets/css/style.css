@@ -1,0 +1,87 @@
+* {
+    background-color: #dbe0e2;
+}
+
+#cloud1 {
+    height: 150px;
+    width: auto;
+    position: absolute;
+    left: -50%;
+    animation-name: fromLeft;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform: rotateY(180deg);
+    
+}
+
+#cloud2 {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    margin-top: 10rem;
+    animation-name: fromLeft;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+#cloud3 {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    left: -50%;
+    margin-top: 25rem;
+    animation-name: fromLeft;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+#cloud4 {
+    height: 175px;
+    width: auto;
+    position: absolute;
+    margin-top: 40rem;
+     animation-name: fromLeft;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform: rotateY(180deg);
+}
+
+.cloud-container {
+    min-height: 100vh;
+}
+
+#gameboard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 30rem;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 80%;
+    height: 300px;
+    z-index: 1000;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+
+@keyframes fromLeft {
+     from {
+    left: -100%;
+    }
+    
+     
+     to {
+    left: 100%;
+     }
+    
+}
+
+@keyframes fromRight {
+     0% {
+    right: -40%;
+    }
+     
+     100% {
+    right: 100%;
+     }
+    
+}
