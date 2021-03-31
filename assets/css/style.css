@@ -278,11 +278,4 @@ body {
 @keyframes fall {
 	to {margin-top:100px; opacity:0;}
 }
-@keyframes fall {
-	to {margin-top:100px; opacity:0;}
-}
 
-@keyframes mover {
-    0% { transform: translateY(1rem); }
-    100% { transform: translateY(2.6rem); }
-}
